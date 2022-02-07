@@ -47,7 +47,7 @@ function themeConfig($form) {
 
 function themeInit($archive) {
     if ($archive->is('index')) {
-        $archive->parameter->pageSize = 9; // 自定义条数
+        $archive->parameter->pageSize = 10; // 自定义条数
     }
 	if ($archive->is('single')) {  
     $archive->content = createCatalog($archive->content);//文章锚点实现

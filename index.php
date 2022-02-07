@@ -70,7 +70,7 @@ $uid = $this->user->uid;
             <section id="wrapper" class="home">
                 <section id="about">
                     <div class="description coding">
-                        <span class="typed prompt"></span>
+                        <span class="typed prompt">Hacking and Coding.</span>
                     </div>
                     <p style="display: inline">
                         <span>
@@ -85,7 +85,6 @@ $uid = $this->user->uid;
 						<li><?php if($this->options->github): ?><a class="icon" href="<?php $this->options->github();?>" target="_blank" title="github"><i class="fa fa-github"></i></a><?php endif; ?><?php if($this->options->twitter): ?> <a class="icon" href="<?php $this->options->twitter();?>" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a><?php endif; ?><?php if($this->options->weibo): ?> <a class="icon" href="<?php $this->options->weibo();?>" target="_blank" title="weibo"><i class="fa fa-weibo"></i></a><?php endif; ?><?php if($this->options->urldiy): ?> <?php $this->options->urldiy();?><?php endif; ?><?php if($this->options->email): ?> <a class="icon" href="mailto:<?php $this->options->email();?>" target="_blank" title="email"><i class="fa fa-envelope"></i></a><?php endif; ?>
                         </li>
                     </ul>. <a id="search" class="search icon" href="javascript:;"><i class="fa fa-search"></i></a><p></p>
-                    <p class="prompt ad-text output new-output">p.s. 网站已经支持PWA,可尝试添加到桌面</p>
                 </section>
                 <section id="writing">
                     <span class="h1">
@@ -106,7 +105,7 @@ $uid = $this->user->uid;
                 </section>
                 <section id="projects">
                     <span class="h1">
-                        <a href="<?php if($this->options->Projectsurl): ?><?php $this->options->Projectsurl();?><?php else : ?>#<?php endif; ?>" rel="external nofollow noopener noreferrer" target="_blank">Projects</a>
+                        <a href="<?php if($this->options->Projects): ?><?php $this->options->Projects();?><?php else : ?>#<?php endif; ?>" rel="external nofollow noopener noreferrer" target="_blank">Projects</a>
                     </span>
                     <ul class="project-list">
 					<?php Projects(); ?>

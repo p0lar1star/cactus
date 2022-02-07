@@ -2,8 +2,9 @@
 <div class="mx-auto px3 my5">
  <footer id="footer" style="display:block;">
             <div class="footer-left">
-                Copyright © <?php echo date('Y'); ?> By <a href="http://www.typecho.org" target="_blank" rel="nofollow">Typecho</a> & <a href="http://www.xde.io" target="_blank">Xingr</a> <?php if($this->options->beian): ?><a href="https://beian.miit.gov.cn/"><?php $this->options->beian();?></a><?php endif; ?>
+                Copyright © 2021-<?php echo date('Y'); ?> By <a href="https://p0lar1s.com" target="_blank" rel="nofollow">p0lar1s</a> <?php if($this->options->beian): ?><a href="http://www.beian.miit.gov.cn/"><?php $this->options->beian();?></a><?php endif; ?>
             </div>
+            <br>
             <div class="footer-right">
                 <nav>
                     <ul>
